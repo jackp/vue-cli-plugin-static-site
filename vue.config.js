@@ -11,6 +11,7 @@ module.exports = {
       },
       postcss: {
         plugins: {
+          "postcss-font-magician": {},
           autoprefixer: {}
         }
       }
