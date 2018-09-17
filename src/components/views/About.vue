@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import ViewTemplate from '@/components/templates/ViewTemplate.vue';
+import ViewTemplate from "@/components/templates/ViewTemplate.vue";
 
 export default {
-  name: 'AboutView',
+  name: "AboutView",
   components: {
     ViewTemplate
   }
-}
+};
 </script>

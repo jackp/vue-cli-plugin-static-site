@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import NavigationBar from '@/components/organisms/NavigationBar.vue';
+import NavigationBar from "@/components/organisms/NavigationBar.vue";
 export default {
-  name: 'ViewTemplate',
+  name: "ViewTemplate",
   components: {
     NavigationBar
   }
-}
+};
 </script>
 
 <style>

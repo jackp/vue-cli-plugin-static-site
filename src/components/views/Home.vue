@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import ViewTemplate from '@/components/templates/ViewTemplate.vue';
+import ViewTemplate from "@/components/templates/ViewTemplate.vue";
 import HelloWorld from "@/components/organisms/HelloWorld.vue";
 
 export default {
