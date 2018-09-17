@@ -1,13 +1,18 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
+    <nav-link to="/">Home</nav-link>
+    <nav-link to="/components">Components</nav-link>
   </nav>
 </template>
 
 <script>
+import NavLink from "../atoms/NavLink.vue";
+
 export default {
-  name: "NavigationBar"
+  name: "NavigationBar",
+  components: {
+    NavLink
+  }
 };
 </script>
 
